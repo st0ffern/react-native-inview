@@ -23,21 +23,13 @@ import Inview from 'react-native-inview'
 render() {
   return (
   <ScrollView>
-    <InViewPort onChange={inView => console.log('Inview: '+ inView)}>
+    <Inview onChange={inView => console.log('Inview: '+ inView)}>
       ....
-    </InViewPort>
+    </Inview>
 
-    <InViewPort onChange={inView => console.log('Inview: '+ inView)}>
+    <Inview onChange={inView => console.log('Inview: '+ inView)}>
       ....
-    </InViewPort>
-
-    <InViewPort onChange={inView => console.log('Inview: '+ inView)}>
-      ....
-    </InViewPort>
-
-    <InViewPort onChange={inView => console.log('Inview: '+ inView)}>
-      ....
-    </InViewPort>
+    </Inview>
 
   </ScrollView>
   );
