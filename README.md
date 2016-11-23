@@ -17,7 +17,7 @@ yarn add react-native-inview --save
 - `delay` : set the frequency for the listener (default: 200).
 
 ##Uage
-```
+```js
 import Inview from 'react-native-inview'
 
 render() {
