@@ -1,19 +1,28 @@
 {
   "name": "react-native-inview",
-  "version": "1.0.0",
   "description": "Detects if a element is inside a ScrollView or a ListView and reports back.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stoffern/react-native-inview.git"
+    "url": "https://github.com/stoffern/react-native-inview.git"
   },
   "author": "stoffern",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stoffern/react-native-inview/issues"
   },
-  "homepage": "https://github.com/stoffern/react-native-inview#readme"
+  "homepage": "https://github.com/stoffern/react-native-inview#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
