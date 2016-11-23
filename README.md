@@ -1,7 +1,7 @@
 # react-native-inview
 Detects if a element is inside a ScrollView or a ListView and reports back.
 
-###Install
+##Install
 
 ```js
 npm i -S react-native-inview
@@ -11,7 +11,12 @@ or with yarnpkg:
 yarn add react-native-inview --save
 ```
 
-###Uage
+##Props
+- `onChange` **(required)**: callback function that report true or false if component is in view.
+- `active` : if set true it will activate a listener to the view (default: true).
+- `delay` : set the frequency for the listener (default: 200).
+
+##Uage
 ```
 import Inview from 'react-native-inview'
 
