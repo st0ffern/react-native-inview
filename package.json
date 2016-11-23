@@ -1,6 +1,6 @@
 {
   "name": "react-native-inview",
-  "description": "Detects if a element is inside a ScrollView or a ListView and reports back.",
+  "description": "Detects if a ScrollView or ListView element is inside the users viewport and reports back on changes.",
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
