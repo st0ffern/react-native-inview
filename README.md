@@ -1,4 +1,6 @@
 # react-native-inview
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stoffern/react-native-inview.svg)](https://greenkeeper.io/)
 Detects if a ScrollView or ListView element is inside the users viewport and reports back on changes
 
 ##Install
