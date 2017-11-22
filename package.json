@@ -1,7 +1,6 @@
 {
   "name": "react-native-inview",
   "description": "Detects if a ScrollView or ListView element is inside the users viewport and reports back on changes.",
-  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
@@ -17,6 +16,9 @@
     "url": "https://github.com/stoffern/react-native-inview/issues"
   },
   "homepage": "https://github.com/stoffern/react-native-inview#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^8.0.3"
