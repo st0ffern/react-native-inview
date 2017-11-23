@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import PropTypes from 'prop-types'
 import {
   View,
   Dimensions,
@@ -70,7 +70,7 @@ class InView extends Component{
       <View ref="myview" {...this.props} onLayout={event => this.onLayout(event)}>
         {this.props.children}
       </View>
-    )    
+    )
   }
 }
 
@@ -79,9 +79,9 @@ InView.defaultProps = {
   delay: 100,
 }
 InView.propTypes = {
-  onChange: React.PropTypes.func.isRequired,
-  active: React.PropTypes.bool,
-  delay: React.PropTypes.number
+  onChange: PropTypes.func.isRequired,
+  active: PropTypes.bool,
+  delay: PropTypes.number
 }
 
 module.exports = InView

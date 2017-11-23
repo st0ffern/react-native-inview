@@ -16,6 +16,9 @@
     "url": "https://github.com/stoffern/react-native-inview/issues"
   },
   "homepage": "https://github.com/stoffern/react-native-inview#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^8.0.3"
